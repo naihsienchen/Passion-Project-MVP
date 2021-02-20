@@ -1,4 +1,3 @@
-"# Passion-Project-MVP" 
 ======Achievement======
 1. set up database
 2. set up data-processing controller and communicating-channel controller
