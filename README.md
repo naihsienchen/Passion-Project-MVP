@@ -4,6 +4,7 @@
 3. CRUD functionality in MVP
 
 ======Pseudo code for next steps======
+
 ======For calendar view======
 1. auto-generated monthly view
 2. when there's an event month matching the month, put the event on the corresponding spot on the calendar.
