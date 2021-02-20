@@ -10,4 +10,4 @@ For calendar view
 2. when there's an event month matching the month, put the event on the corresponding spot on the calendar.
 
 For event table
-look up info for: how to present info from the database
+1. look up info for: how to present info from the database
