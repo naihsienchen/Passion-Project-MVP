@@ -13,6 +13,7 @@ For event table
 1. look up info for: how to present info from the database
 
 ======Feb26 commit======
+
 MonthCalendar example from microsoft documentation
 https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.monthcalendar?view=net-5.0
 
