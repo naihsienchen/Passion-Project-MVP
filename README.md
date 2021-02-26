@@ -11,3 +11,12 @@ For calendar view
 
 For event table
 1. look up info for: how to present info from the database
+
+======Feb26 commit======
+MonthCalendar example from microsoft documentation
+https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.monthcalendar?view=net-5.0
+
+HOW DO I:
+1. link this to event database and view
+2. Collect information from my event database and bind them with the monthcalendar class
+3. Display them with a view
