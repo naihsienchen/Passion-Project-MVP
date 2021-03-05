@@ -42,7 +42,12 @@ On all the dates between this range, and pass them from your controller to your 
 View can describe some HTML for each day. The day can be an HTML div element, with another span element inside to represent which day of the week it is. If there is an event scheduled for that day, you can include that as well.
 
 #### WHERE TO START?
-see event controller line 20 for more details. 
+See event controller line 20. Change the ActionResult function to loop through events and create monthly view.
+- Relating class contents:
+    - Module 7: (about one hour in the video) about view model
+    - See also: varsity example, displaying team info (with multiple tables)
+    - See also: wireframing.pdf fig 3
+
 
 
 
