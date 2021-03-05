@@ -15,11 +15,15 @@ namespace Bullet_Journal_5.Controllers
     public class EventsController : Controller
     {
         private BulletJournalDBcontext db = new BulletJournalDBcontext();
-
+        // THIS IS NOT THE CUSTOMIZED WAY OF CONNECTING TO THE DATABASE. SEE VARSITY EXAMPLES OF HOW TO CONNECT TO API CONTROLLORS
         // GET: Events
         public ActionResult Index()
         {
             return View(db.Events.ToList());
+            //THIS IS WHERE TO CHANGE TO LOOP THROUGH EVENTS AND CREATE MONTHLY VIEW
+            //MODULE 7: TAKLKING ABOUT VIEW MODEL
+            //SEE ALSO: VARSITY EXAMPLE, DISPLAYING TEAM INFO (WITH MULTIPLE TABLES),
+            //SEE ALSO: WIREFRAMINE.PDF FIG 3
         }
 
         // GET: Events/Details/5
@@ -134,7 +138,7 @@ namespace Bullet_Journal_5.Controllers
 //1. link this to event database and view
 //2. Collect information from my event database and bind them with the monthcalendar class
 //3. Display them with a view
-
+/*
 public class Calendar : Form
 {
     private MonthCalendar monthCalendar1;
@@ -146,7 +150,7 @@ public class Calendar : Form
         Application.Run(new Calendar());
         
     }
-
+    /*
     public Calendar()
     {
         this.textBox1 = new TextBox();
@@ -238,4 +242,5 @@ public class Calendar : Form
         this.textBox1.Text = "Date Changed: Start =  " +
             e.Start.ToShortDateString() + " : End = " + e.End.ToShortDateString();
     }
-}
+    
+}*/
